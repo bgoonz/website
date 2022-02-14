@@ -28,7 +28,7 @@
     "next": "^11.0.1",
     "next-i18next": "^8.5.5",
     "nextjs-progressbar": "^0.0.10",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "notebookjs": "^0.6.6",
     "ora": "^5.4.0",
     "react": "^17.0.2",
