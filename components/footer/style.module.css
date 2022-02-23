@@ -23,9 +23,9 @@
   display: grid;
   grid-template-rows: 35px auto;
   grid-template-areas:
-    "logo name name"
-    "logo list list"
-    "vercel vercel vercel";
+  "logo name name name"
+  "logo list list list"
+  "vercel vercel vercel vercel";
   justify-content: center;
 }
 

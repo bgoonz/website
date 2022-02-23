@@ -19,14 +19,7 @@ export default function Footer() {
       square
     >
       <div className={`section container ${classes.grid}`}>
-        <img
-          src="/logo_t.svg"
-          className={classes.logo}
-          alt="The Algorithms logo"
-        />
-        <Typography className={classes.name}>
-          &#169; The Algorithms 2021
-        </Typography>
+      The Algorithms
         <div className={classes.list}>
           <Link href="/#about">{t("algorithmExplaniationFooter")}</Link>
           <Link href="/#aboutUs">{t("aboutUsFooter")}</Link>
@@ -37,7 +30,24 @@ export default function Footer() {
           <Link href="/#donate">{t("donateTitle")}</Link>
           <Link href="mailto:hello@the-algorithms.com">{t("contact")}</Link>
         </div>
+        <Typography className={classes.name}>
+        Social 2
+      </Typography>
         <div className={classes.list}>
+          <Link href="https://github.com/TheAlgorithms/">GitHub</Link>
+          <Link href="https://gitter.im/TheAlgorithms/">Gitter</Link>
+          <Link href="https://twitter.com/The_Algorithms">Twitter</Link>
+          <Link href="/all">{t("allAlgorithmsFooter")}</Link>
+          <Link href="https://github.com/TheAlgorithms/website">
+            {t("sourceCodeFooter")}
+          </Link>
+        </div>
+        <div className={classes.list}>
+
+        <Typography className={classes.name}>
+        oh YES
+      </Typography>
+
           <Link href="https://github.com/TheAlgorithms/">GitHub</Link>
           <Link href="https://gitter.im/TheAlgorithms/">Gitter</Link>
           <Link href="https://twitter.com/The_Algorithms">Twitter</Link>
